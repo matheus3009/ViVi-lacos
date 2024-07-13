@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* header css inicio */
+header{
+    background-color: #D96C94;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#menu {
+ text-decoration: none;
+ color: black;
+ font-size: 50px;
+ padding: 10px;
+}
+
+.fechar {
+    display: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.iconesimg {
+    width: 40px;
+    margin-left: 20px;
+}
+
+/* header css fim */
