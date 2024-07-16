@@ -35,7 +35,7 @@ header{
 #logoimg {
     width: 100px; /* Largura da imagem */
     height: auto; /* Altura automática para manter a proporção */
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .icons {
@@ -49,3 +49,17 @@ header{
 }
 
 /* header css fim */
+
+
+
+/* footer css inicio */
+
+footer {
+    background-color: #D96C94;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
