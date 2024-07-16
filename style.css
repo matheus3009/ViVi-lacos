@@ -26,6 +26,18 @@ header{
     display: none;
 }
 
+#logo{
+    display: inline-block; /* Transforma o link em um bloco */
+    padding: 10px; /* Espaçamento ao redor da imagem */
+    text-decoration: none; /* Remove sublinhado padrão */
+}
+
+#logoimg {
+    width: 100px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-left: 60px;
+}
+
 .icons {
     display: flex;
     align-items: center;
