@@ -50,6 +50,9 @@ header{
 
 /* header css fim */
 
+/* main css inicio */
+
+/* main css fim */
 
 
 /* footer css inicio */
@@ -59,7 +62,8 @@ footer {
 }
 
 .footer{
+    width: 100%;
+    padding: 25px 10px;
     display: flex;
-    flex-wrap: wrap;
-    
+
 }
