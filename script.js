@@ -34,7 +34,4 @@ document.addEventListener('DOMContentLoaded', () => {
     carousel.addEventListener('mouseenter', stopAutoSlide);
     carousel.addEventListener('mouseleave', startAutoSlide);
 
-    carousel.addEventListener('touchstart', handleTouchStart);
-    carousel.addEventListener('touchmove', handleTouchMove);
-    carousel.addEventListener('touchend', handleTouchEnd);
 });

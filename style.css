@@ -96,6 +96,34 @@ button:hover {
 }
 
 /* Carrossel fim */
+
+/* produtos inicio*/
+
+.produtos{
+    background-color: aliceblue;
+}
+
+.produto-ind{
+    background-color: white;
+    border: solid 1px;
+    border-radius: 5px;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.produto-ind img{
+    border: solid 1px;
+    padding: 30px;
+    margin: auto;
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* produtos fim */
 /* main css fim */
 
 
