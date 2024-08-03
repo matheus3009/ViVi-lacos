@@ -1,3 +1,4 @@
+/* slider */
 let currentIndex = 0;
 let autoSlideInterval;
 
@@ -35,3 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     carousel.addEventListener('mouseleave', startAutoSlide);
 
 });
+/* slider fim */
+
+/* slider produtos */
+

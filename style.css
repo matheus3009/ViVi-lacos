@@ -101,27 +101,32 @@ button:hover {
 
 .produtos{
     background-color: aliceblue;
+    
 }
 
 .produto-ind{
     background-color: white;
-    border: solid 1px;
-    border-radius: 5px;
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    display: flex;
+    border: solid 1px ;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0,2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30%;
+    height: auto;
 }
 
-.produto-ind img{
+.img-prod{
     border: solid 1px;
-    padding: 30px;
-    margin: auto;
-    width: 600px;
-    height: auto;
     display: flex;
-    justify-content: center;
+    margin: 5px;
+    height: 160px;
 }
+
+.produto-ind p{
+    text-align:start;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
 
 /* produtos fim */
 /* main css fim */
