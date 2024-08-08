@@ -22,8 +22,33 @@ header{
  padding: 10px;
 }
 
-.fechar {
+.links-menu a:focus,
+.links-menu a:hover {
+    background-color: white;
+
+}
+
+.links-menu {
+    list-style: none;
     display: none;
+}
+
+.links-menu a {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-menu.aberto {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: white;
 }
 
 #logo{
@@ -101,6 +126,7 @@ button:hover {
 
 .produtos{
     background-color: aliceblue;
+
     
 }
 
